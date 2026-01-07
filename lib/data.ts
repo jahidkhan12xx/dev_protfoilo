@@ -9,7 +9,7 @@ import {
   SiPostgresql,
   SiFirebase,
   SiTailwindcss,
-  SiFramer
+  SiFramer,
 } from "react-icons/si";
 import { FaBug, FaCode } from "react-icons/fa6";
 
@@ -64,24 +64,25 @@ export const projects = [
     title: "Expense Management",
     description: "A specialized dashboard for expense management.",
     tags: ["Next.js", "Tailwind", "PostgreSQL"],
-    githubUrl: "#", // Replace with actual GitHub URL
-    liveUrl: "#",   // Replace with actual Live URL
+    githubUrl: "https://github.com/jahidkhan12xx/expense.git",
+    liveUrl: "https://expense-pearl-one.vercel.app/",
     image: "/expense.png",
   },
   {
     title: "Ecommerce website",
     description: "E-commerce platform with real-time updates.",
     tags: ["React", "Firebase", "Stripe"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/jahidkhan12xx/Artify_Ecommerce.git",
+    liveUrl: "https://artify-ecommerce-dvtv.vercel.app/",
     image: "/ecommerce.png",
   },
   {
     title: "Employee Management",
     description: "Social media application for developers.",
     tags: ["Node.js", "MongoDB", "Next.js"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl:
+      "https://github.com/jahidkhan12xx/Employee-Management-Project-Client.git",
+    liveUrl: "https://programming-booth.web.app/",
     image: "/management.png",
   },
 ];
